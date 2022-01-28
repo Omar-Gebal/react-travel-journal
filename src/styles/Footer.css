@@ -1,0 +1,23 @@
+:root{
+    --footer: var(--nav);
+    --footer-text: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--footer);
+}
+
+footer > p{
+    color: var(--footer-text);
+    margin-right: 1rem;
+}
+
+footer > a{
+    text-decoration: none;
+    margin-right: 0.2rem;
+    filter: invert(1);
+}

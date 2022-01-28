@@ -1,0 +1,48 @@
+.main{
+    padding: 3rem 2rem;
+}
+
+hr{
+    width: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    color: #FAFAFA;
+    border-color: #FAFAFA;
+}
+
+
+/*Responsivity section*/
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    p{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-size: 0.7rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .country{
+        font-size: 0.7rem;
+    }
+    .location > a{
+        font-size: 0.5rem;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .main{
+        padding: 2rem 1rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .cover{
+        width: 100px;
+        height: 200px;
+    }
+    .blog-content{
+        max-height: 200px;
+    }
+}

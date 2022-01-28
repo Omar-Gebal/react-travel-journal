@@ -1,0 +1,19 @@
+:root {
+    --nav: #F55A5A;
+    --nav-text: #ffffff;
+  }
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nav);
+    padding: 1rem 1rem;
+    font-weight: 500;
+    font-size: medium;
+}
+
+nav > p {
+    color: var(--nav-text);
+    margin-left: 1rem;
+}
